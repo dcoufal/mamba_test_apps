@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCD52031FEAFC4900E88B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD52021FEAFC4900E88B97 /* AppDelegate.swift */; };
+		ECCD52051FEAFC4900E88B97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD52041FEAFC4900E88B97 /* ViewController.swift */; };
+		ECCD52081FEAFC4900E88B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD52061FEAFC4900E88B97 /* Main.storyboard */; };
+		ECCD520A1FEAFC4900E88B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCD52091FEAFC4900E88B97 /* Assets.xcassets */; };
+		ECCD52151FEAFC4900E88B97 /* mamba_tvos_carthage_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD52141FEAFC4900E88B97 /* mamba_tvos_carthage_testTests.swift */; };
+		ECCD527C1FEB08C600E88B97 /* mamba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCD527B1FEB08C600E88B97 /* mamba.framework */; };
+		ECCD527E1FEB08F100E88B97 /* mamba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCD527B1FEB08C600E88B97 /* mamba.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCD52111FEAFC4900E88B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCD51F71FEAFC4900E88B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCD51FE1FEAFC4900E88B97;
+			remoteInfo = mamba_tvos_carthage_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECCD51FF1FEAFC4900E88B97 /* mamba_tvos_carthage_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mamba_tvos_carthage_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD52021FEAFC4900E88B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECCD52041FEAFC4900E88B97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECCD52071FEAFC4900E88B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCD52091FEAFC4900E88B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECCD520B1FEAFC4900E88B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCD52101FEAFC4900E88B97 /* mamba_tvos_carthage_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mamba_tvos_carthage_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD52141FEAFC4900E88B97 /* mamba_tvos_carthage_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamba_tvos_carthage_testTests.swift; sourceTree = "<group>"; };
+		ECCD52161FEAFC4900E88B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCD527B1FEB08C600E88B97 /* mamba.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mamba.framework; path = Carthage/Build/tvOS/mamba.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCD51FC1FEAFC4900E88B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD527C1FEB08C600E88B97 /* mamba.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD520D1FEAFC4900E88B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD527E1FEB08F100E88B97 /* mamba.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCD51F61FEAFC4900E88B97 = {
+			isa = PBXGroup;
+			children = (
+				ECCD52011FEAFC4900E88B97 /* mamba_tvos_carthage_test */,
+				ECCD52131FEAFC4900E88B97 /* mamba_tvos_carthage_testTests */,
+				ECCD52001FEAFC4900E88B97 /* Products */,
+				ECCD527A1FEB08C600E88B97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCD52001FEAFC4900E88B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD51FF1FEAFC4900E88B97 /* mamba_tvos_carthage_test.app */,
+				ECCD52101FEAFC4900E88B97 /* mamba_tvos_carthage_testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCD52011FEAFC4900E88B97 /* mamba_tvos_carthage_test */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD52021FEAFC4900E88B97 /* AppDelegate.swift */,
+				ECCD52041FEAFC4900E88B97 /* ViewController.swift */,
+				ECCD52061FEAFC4900E88B97 /* Main.storyboard */,
+				ECCD52091FEAFC4900E88B97 /* Assets.xcassets */,
+				ECCD520B1FEAFC4900E88B97 /* Info.plist */,
+			);
+			path = mamba_tvos_carthage_test;
+			sourceTree = "<group>";
+		};
+		ECCD52131FEAFC4900E88B97 /* mamba_tvos_carthage_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD52141FEAFC4900E88B97 /* mamba_tvos_carthage_testTests.swift */,
+				ECCD52161FEAFC4900E88B97 /* Info.plist */,
+			);
+			path = mamba_tvos_carthage_testTests;
+			sourceTree = "<group>";
+		};
+		ECCD527A1FEB08C600E88B97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD527B1FEB08C600E88B97 /* mamba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCD51FE1FEAFC4900E88B97 /* mamba_tvos_carthage_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD52191FEAFC4900E88B97 /* Build configuration list for PBXNativeTarget "mamba_tvos_carthage_test" */;
+			buildPhases = (
+				ECCD51FB1FEAFC4900E88B97 /* Sources */,
+				ECCD51FC1FEAFC4900E88B97 /* Frameworks */,
+				ECCD51FD1FEAFC4900E88B97 /* Resources */,
+				ECCD527D1FEB08CB00E88B97 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mamba_tvos_carthage_test;
+			productName = mamba_tvos_carthage_test;
+			productReference = ECCD51FF1FEAFC4900E88B97 /* mamba_tvos_carthage_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCD520F1FEAFC4900E88B97 /* mamba_tvos_carthage_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD521C1FEAFC4900E88B97 /* Build configuration list for PBXNativeTarget "mamba_tvos_carthage_testTests" */;
+			buildPhases = (
+				ECCD520C1FEAFC4900E88B97 /* Sources */,
+				ECCD520D1FEAFC4900E88B97 /* Frameworks */,
+				ECCD520E1FEAFC4900E88B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCD52121FEAFC4900E88B97 /* PBXTargetDependency */,
+			);
+			name = mamba_tvos_carthage_testTests;
+			productName = mamba_tvos_carthage_testTests;
+			productReference = ECCD52101FEAFC4900E88B97 /* mamba_tvos_carthage_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCD51F71FEAFC4900E88B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "David Coufal.\n//  Released under an MIT license: https://opensource.org/licenses/MIT";
+				TargetAttributes = {
+					ECCD51FE1FEAFC4900E88B97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECCD520F1FEAFC4900E88B97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECCD51FE1FEAFC4900E88B97;
+					};
+				};
+			};
+			buildConfigurationList = ECCD51FA1FEAFC4900E88B97 /* Build configuration list for PBXProject "mamba_tvos_carthage_test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCD51F61FEAFC4900E88B97;
+			productRefGroup = ECCD52001FEAFC4900E88B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCD51FE1FEAFC4900E88B97 /* mamba_tvos_carthage_test */,
+				ECCD520F1FEAFC4900E88B97 /* mamba_tvos_carthage_testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCD51FD1FEAFC4900E88B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD520A1FEAFC4900E88B97 /* Assets.xcassets in Resources */,
+				ECCD52081FEAFC4900E88B97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD520E1FEAFC4900E88B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECCD527D1FEB08CB00E88B97 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/mamba.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCD51FB1FEAFC4900E88B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD52051FEAFC4900E88B97 /* ViewController.swift in Sources */,
+				ECCD52031FEAFC4900E88B97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD520C1FEAFC4900E88B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD52151FEAFC4900E88B97 /* mamba_tvos_carthage_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCD52121FEAFC4900E88B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCD51FE1FEAFC4900E88B97 /* mamba_tvos_carthage_test */;
+			targetProxy = ECCD52111FEAFC4900E88B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCD52061FEAFC4900E88B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCD52071FEAFC4900E88B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCD52171FEAFC4900E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		ECCD52181FEAFC4900E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCD521A1FEAFC4900E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = mamba_tvos_carthage_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-tvos-carthage-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		ECCD521B1FEAFC4900E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = mamba_tvos_carthage_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-tvos-carthage-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		ECCD521D1FEAFC4900E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = mamba_tvos_carthage_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-tvos-carthage-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mamba_tvos_carthage_test.app/mamba_tvos_carthage_test";
+			};
+			name = Debug;
+		};
+		ECCD521E1FEAFC4900E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = mamba_tvos_carthage_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-tvos-carthage-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mamba_tvos_carthage_test.app/mamba_tvos_carthage_test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCD51FA1FEAFC4900E88B97 /* Build configuration list for PBXProject "mamba_tvos_carthage_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD52171FEAFC4900E88B97 /* Debug */,
+				ECCD52181FEAFC4900E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCD52191FEAFC4900E88B97 /* Build configuration list for PBXNativeTarget "mamba_tvos_carthage_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD521A1FEAFC4900E88B97 /* Debug */,
+				ECCD521B1FEAFC4900E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCD521C1FEAFC4900E88B97 /* Build configuration list for PBXNativeTarget "mamba_tvos_carthage_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD521D1FEAFC4900E88B97 /* Debug */,
+				ECCD521E1FEAFC4900E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCD51F71FEAFC4900E88B97 /* Project object */;
+}

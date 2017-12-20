@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC80BB881FEB1C8A00AD1A0D /* mamba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC80BB891FEB1C8A00AD1A0D /* mamba.framework */; };
+		ECCD522C1FEAFC7100E88B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD522B1FEAFC7100E88B97 /* AppDelegate.swift */; };
+		ECCD522E1FEAFC7100E88B97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD522D1FEAFC7100E88B97 /* ViewController.swift */; };
+		ECCD52311FEAFC7100E88B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD522F1FEAFC7100E88B97 /* Main.storyboard */; };
+		ECCD52331FEAFC7100E88B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCD52321FEAFC7100E88B97 /* Assets.xcassets */; };
+		ECCD52361FEAFC7100E88B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD52341FEAFC7100E88B97 /* LaunchScreen.storyboard */; };
+		ECCD52411FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD52401FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCD523D1FEAFC7100E88B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCD52201FEAFC7100E88B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCD52271FEAFC7100E88B97;
+			remoteInfo = mamba_ios_cocoapod_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC924FB31FEB20D900CCA1CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC4FE37D1FEB163800DF3CC0 /* mamba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = mamba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC80BB891FEB1C8A00AD1A0D /* mamba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = mamba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC924FB61FEB212E00CCA1CB /* mamba.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mamba.framework; path = "../../../Library/Developer/Xcode/DerivedData/mamba_ios_cocoapod_test-emjiciclmkhxiudgiuhvlxrejjfs/Build/Products/Debug-iphonesimulator/mamba/mamba.framework"; sourceTree = "<group>"; };
+		ECCD52281FEAFC7100E88B97 /* mamba_ios_cocoapod_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mamba_ios_cocoapod_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD522B1FEAFC7100E88B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECCD522D1FEAFC7100E88B97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECCD52301FEAFC7100E88B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCD52321FEAFC7100E88B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECCD52351FEAFC7100E88B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECCD52371FEAFC7100E88B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCD523C1FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mamba_ios_cocoapod_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD52401FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamba_ios_cocoapod_testTests.swift; sourceTree = "<group>"; };
+		ECCD52421FEAFC7100E88B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCD52251FEAFC7100E88B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC80BB881FEB1C8A00AD1A0D /* mamba.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD52391FEAFC7100E88B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F3E6AFB56D498F6A697166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC80BB891FEB1C8A00AD1A0D /* mamba.framework */,
+				EC4FE37D1FEB163800DF3CC0 /* mamba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECCD521F1FEAFC7100E88B97 = {
+			isa = PBXGroup;
+			children = (
+				EC924FB61FEB212E00CCA1CB /* mamba.framework */,
+				ECCD522A1FEAFC7100E88B97 /* mamba_ios_cocoapod_test */,
+				ECCD523F1FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests */,
+				ECCD52291FEAFC7100E88B97 /* Products */,
+				86F3E6AFB56D498F6A697166 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCD52291FEAFC7100E88B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD52281FEAFC7100E88B97 /* mamba_ios_cocoapod_test.app */,
+				ECCD523C1FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCD522A1FEAFC7100E88B97 /* mamba_ios_cocoapod_test */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD522B1FEAFC7100E88B97 /* AppDelegate.swift */,
+				ECCD522D1FEAFC7100E88B97 /* ViewController.swift */,
+				ECCD522F1FEAFC7100E88B97 /* Main.storyboard */,
+				ECCD52321FEAFC7100E88B97 /* Assets.xcassets */,
+				ECCD52341FEAFC7100E88B97 /* LaunchScreen.storyboard */,
+				ECCD52371FEAFC7100E88B97 /* Info.plist */,
+			);
+			path = mamba_ios_cocoapod_test;
+			sourceTree = "<group>";
+		};
+		ECCD523F1FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD52401FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests.swift */,
+				ECCD52421FEAFC7100E88B97 /* Info.plist */,
+			);
+			path = mamba_ios_cocoapod_testTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCD52271FEAFC7100E88B97 /* mamba_ios_cocoapod_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD52451FEAFC7100E88B97 /* Build configuration list for PBXNativeTarget "mamba_ios_cocoapod_test" */;
+			buildPhases = (
+				ECCD52241FEAFC7100E88B97 /* Sources */,
+				ECCD52251FEAFC7100E88B97 /* Frameworks */,
+				ECCD52261FEAFC7100E88B97 /* Resources */,
+				EC924FB31FEB20D900CCA1CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mamba_ios_cocoapod_test;
+			productName = mamba_ios_cocoapod_test;
+			productReference = ECCD52281FEAFC7100E88B97 /* mamba_ios_cocoapod_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCD523B1FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD52481FEAFC7100E88B97 /* Build configuration list for PBXNativeTarget "mamba_ios_cocoapod_testTests" */;
+			buildPhases = (
+				ECCD52381FEAFC7100E88B97 /* Sources */,
+				ECCD52391FEAFC7100E88B97 /* Frameworks */,
+				ECCD523A1FEAFC7100E88B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCD523E1FEAFC7100E88B97 /* PBXTargetDependency */,
+			);
+			name = mamba_ios_cocoapod_testTests;
+			productName = mamba_ios_cocoapod_testTests;
+			productReference = ECCD523C1FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCD52201FEAFC7100E88B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "David Coufal.\n//  Released under an MIT license: https://opensource.org/licenses/MIT";
+				TargetAttributes = {
+					ECCD52271FEAFC7100E88B97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECCD523B1FEAFC7100E88B97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECCD52271FEAFC7100E88B97;
+					};
+				};
+			};
+			buildConfigurationList = ECCD52231FEAFC7100E88B97 /* Build configuration list for PBXProject "mamba_ios_cocoapod_test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCD521F1FEAFC7100E88B97;
+			productRefGroup = ECCD52291FEAFC7100E88B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCD52271FEAFC7100E88B97 /* mamba_ios_cocoapod_test */,
+				ECCD523B1FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCD52261FEAFC7100E88B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD52361FEAFC7100E88B97 /* LaunchScreen.storyboard in Resources */,
+				ECCD52331FEAFC7100E88B97 /* Assets.xcassets in Resources */,
+				ECCD52311FEAFC7100E88B97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD523A1FEAFC7100E88B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCD52241FEAFC7100E88B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD522E1FEAFC7100E88B97 /* ViewController.swift in Sources */,
+				ECCD522C1FEAFC7100E88B97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD52381FEAFC7100E88B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD52411FEAFC7100E88B97 /* mamba_ios_cocoapod_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCD523E1FEAFC7100E88B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCD52271FEAFC7100E88B97 /* mamba_ios_cocoapod_test */;
+			targetProxy = ECCD523D1FEAFC7100E88B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCD522F1FEAFC7100E88B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCD52301FEAFC7100E88B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECCD52341FEAFC7100E88B97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCD52351FEAFC7100E88B97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCD52431FEAFC7100E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECCD52441FEAFC7100E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCD52461FEAFC7100E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mamba_ios_cocoapod_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-ios-cocoapod-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECCD52471FEAFC7100E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mamba_ios_cocoapod_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-ios-cocoapod-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECCD52491FEAFC7100E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mamba_ios_cocoapod_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-ios-cocoapod-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mamba_ios_cocoapod_test.app/mamba_ios_cocoapod_test";
+			};
+			name = Debug;
+		};
+		ECCD524A1FEAFC7100E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mamba_ios_cocoapod_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-ios-cocoapod-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mamba_ios_cocoapod_test.app/mamba_ios_cocoapod_test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCD52231FEAFC7100E88B97 /* Build configuration list for PBXProject "mamba_ios_cocoapod_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD52431FEAFC7100E88B97 /* Debug */,
+				ECCD52441FEAFC7100E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCD52451FEAFC7100E88B97 /* Build configuration list for PBXNativeTarget "mamba_ios_cocoapod_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD52461FEAFC7100E88B97 /* Debug */,
+				ECCD52471FEAFC7100E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCD52481FEAFC7100E88B97 /* Build configuration list for PBXNativeTarget "mamba_ios_cocoapod_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD52491FEAFC7100E88B97 /* Debug */,
+				ECCD524A1FEAFC7100E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCD52201FEAFC7100E88B97 /* Project object */;
+}

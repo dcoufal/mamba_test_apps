@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCD52581FEAFC8600E88B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD52571FEAFC8600E88B97 /* AppDelegate.swift */; };
+		ECCD525A1FEAFC8600E88B97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD52591FEAFC8600E88B97 /* ViewController.swift */; };
+		ECCD525D1FEAFC8600E88B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCD525B1FEAFC8600E88B97 /* Main.storyboard */; };
+		ECCD525F1FEAFC8600E88B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCD525E1FEAFC8600E88B97 /* Assets.xcassets */; };
+		ECCD526A1FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD52691FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCD52661FEAFC8600E88B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCD524C1FEAFC8600E88B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCD52531FEAFC8600E88B97;
+			remoteInfo = mamba_tvos_cocoapod_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECCD52541FEAFC8600E88B97 /* mamba_tvos_cocoapod_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mamba_tvos_cocoapod_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD52571FEAFC8600E88B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECCD52591FEAFC8600E88B97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECCD525C1FEAFC8600E88B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCD525E1FEAFC8600E88B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECCD52601FEAFC8600E88B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCD52651FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mamba_tvos_cocoapod_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCD52691FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamba_tvos_cocoapod_testTests.swift; sourceTree = "<group>"; };
+		ECCD526B1FEAFC8600E88B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCD52511FEAFC8600E88B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD52621FEAFC8600E88B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCD524B1FEAFC8600E88B97 = {
+			isa = PBXGroup;
+			children = (
+				ECCD52561FEAFC8600E88B97 /* mamba_tvos_cocoapod_test */,
+				ECCD52681FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests */,
+				ECCD52551FEAFC8600E88B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCD52551FEAFC8600E88B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD52541FEAFC8600E88B97 /* mamba_tvos_cocoapod_test.app */,
+				ECCD52651FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCD52561FEAFC8600E88B97 /* mamba_tvos_cocoapod_test */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD52571FEAFC8600E88B97 /* AppDelegate.swift */,
+				ECCD52591FEAFC8600E88B97 /* ViewController.swift */,
+				ECCD525B1FEAFC8600E88B97 /* Main.storyboard */,
+				ECCD525E1FEAFC8600E88B97 /* Assets.xcassets */,
+				ECCD52601FEAFC8600E88B97 /* Info.plist */,
+			);
+			path = mamba_tvos_cocoapod_test;
+			sourceTree = "<group>";
+		};
+		ECCD52681FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCD52691FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests.swift */,
+				ECCD526B1FEAFC8600E88B97 /* Info.plist */,
+			);
+			path = mamba_tvos_cocoapod_testTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCD52531FEAFC8600E88B97 /* mamba_tvos_cocoapod_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD526E1FEAFC8600E88B97 /* Build configuration list for PBXNativeTarget "mamba_tvos_cocoapod_test" */;
+			buildPhases = (
+				ECCD52501FEAFC8600E88B97 /* Sources */,
+				ECCD52511FEAFC8600E88B97 /* Frameworks */,
+				ECCD52521FEAFC8600E88B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mamba_tvos_cocoapod_test;
+			productName = mamba_tvos_cocoapod_test;
+			productReference = ECCD52541FEAFC8600E88B97 /* mamba_tvos_cocoapod_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCD52641FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCD52711FEAFC8600E88B97 /* Build configuration list for PBXNativeTarget "mamba_tvos_cocoapod_testTests" */;
+			buildPhases = (
+				ECCD52611FEAFC8600E88B97 /* Sources */,
+				ECCD52621FEAFC8600E88B97 /* Frameworks */,
+				ECCD52631FEAFC8600E88B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCD52671FEAFC8600E88B97 /* PBXTargetDependency */,
+			);
+			name = mamba_tvos_cocoapod_testTests;
+			productName = mamba_tvos_cocoapod_testTests;
+			productReference = ECCD52651FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCD524C1FEAFC8600E88B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "David Coufal.\n//  Released under an MIT license: https://opensource.org/licenses/MIT";
+				TargetAttributes = {
+					ECCD52531FEAFC8600E88B97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECCD52641FEAFC8600E88B97 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECCD52531FEAFC8600E88B97;
+					};
+				};
+			};
+			buildConfigurationList = ECCD524F1FEAFC8600E88B97 /* Build configuration list for PBXProject "mamba_tvos_cocoapod_test" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCD524B1FEAFC8600E88B97;
+			productRefGroup = ECCD52551FEAFC8600E88B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCD52531FEAFC8600E88B97 /* mamba_tvos_cocoapod_test */,
+				ECCD52641FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCD52521FEAFC8600E88B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD525F1FEAFC8600E88B97 /* Assets.xcassets in Resources */,
+				ECCD525D1FEAFC8600E88B97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD52631FEAFC8600E88B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCD52501FEAFC8600E88B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD525A1FEAFC8600E88B97 /* ViewController.swift in Sources */,
+				ECCD52581FEAFC8600E88B97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD52611FEAFC8600E88B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCD526A1FEAFC8600E88B97 /* mamba_tvos_cocoapod_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCD52671FEAFC8600E88B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCD52531FEAFC8600E88B97 /* mamba_tvos_cocoapod_test */;
+			targetProxy = ECCD52661FEAFC8600E88B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCD525B1FEAFC8600E88B97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCD525C1FEAFC8600E88B97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCD526C1FEAFC8600E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		ECCD526D1FEAFC8600E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCD526F1FEAFC8600E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mamba_tvos_cocoapod_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-tvos-cocoapod-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		ECCD52701FEAFC8600E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mamba_tvos_cocoapod_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-tvos-cocoapod-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		ECCD52721FEAFC8600E88B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mamba_tvos_cocoapod_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-tvos-cocoapod-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mamba_tvos_cocoapod_test.app/mamba_tvos_cocoapod_test";
+			};
+			name = Debug;
+		};
+		ECCD52731FEAFC8600E88B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mamba_tvos_cocoapod_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comcast.viper.playerplatform.mamba-tvos-cocoapod-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mamba_tvos_cocoapod_test.app/mamba_tvos_cocoapod_test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCD524F1FEAFC8600E88B97 /* Build configuration list for PBXProject "mamba_tvos_cocoapod_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD526C1FEAFC8600E88B97 /* Debug */,
+				ECCD526D1FEAFC8600E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCD526E1FEAFC8600E88B97 /* Build configuration list for PBXNativeTarget "mamba_tvos_cocoapod_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD526F1FEAFC8600E88B97 /* Debug */,
+				ECCD52701FEAFC8600E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCD52711FEAFC8600E88B97 /* Build configuration list for PBXNativeTarget "mamba_tvos_cocoapod_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD52721FEAFC8600E88B97 /* Debug */,
+				ECCD52731FEAFC8600E88B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCD524C1FEAFC8600E88B97 /* Project object */;
+}

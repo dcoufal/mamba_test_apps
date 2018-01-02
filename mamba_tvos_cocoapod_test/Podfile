@@ -1,10 +1,12 @@
 
 use_frameworks!
 
+platform :tvos, '10.0'
+
 target 'mamba_tvos_cocoapod_test' do
-  pod 'mamba', :git => 'https://github.com/Comcast/mamba.git', :branch => 'develop'
+  pod 'mamba', '1.0.0'
 end
 
 target 'mamba_tvos_cocoapod_testTests' do  
-  pod 'mamba', :git => 'https://github.com/Comcast/mamba.git', :branch => 'develop'
+  pod 'mamba', '1.0.0'
 end

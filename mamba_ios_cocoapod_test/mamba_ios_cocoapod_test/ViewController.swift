@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let parser = HLSParser()
         
         do {
-            let manifest = try parser.parse(manifestData: data, url: url)
+            let manifest = try parser.parse(playlistData: data, url: url)
             if manifest.tags.count == 9 {
                 self.testLabel.text = "Tests: PASSED"
                 self.testLabel.textColor = UIColor.green

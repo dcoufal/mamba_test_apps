@@ -4,9 +4,9 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'mamba_ios_cocoapod_test' do
-  pod 'mamba', '1.0.0'
+  pod 'mamba', '1.0.1'
 end
 
 target 'mamba_ios_cocoapod_testTests' do  
-  pod 'mamba', '1.0.0'
+  pod 'mamba', '1.0.1'
 end

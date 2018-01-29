@@ -13,21 +13,63 @@ import mamba
 class ViewController: UIViewController {
     
     @IBOutlet weak var testLabel: UILabel!
+    @IBOutlet weak var versionLabel: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
+        versionLabel.text = "Version: \(Mamba.version)"
+        
         let data = manifestString.data(using: .utf8)!
         let url = URL(string: "http://media.example.com/master.m3u8")!
         
         let parser = HLSParser()
         
         do {
-            let manifest = try parser.parse(playlistData: data, url: url)
-            if manifest.tags.count == 9 {
+            let playlist = try parser.parse(playlistData: data, url: url)
+            if playlist.tags.count == 9 {
+                
+                let stream = OutputStream.toMemory()
+                stream.open()
+                
+                defer {
+                    stream.close()
+                }
+                
+                let writer = HLSWriter()
+                try writer.write(hlsPlaylist: playlist, toStream: stream)
+                
+                if let error = stream.streamError {
+                    self.testLabel.text = "Tests: FAILED WITH WRITE STREAM ERROR: \(error)"
+                    self.testLabel.textColor = UIColor.red
+                    return
+                }
+                
+                guard let data = stream.property(forKey: .dataWrittenToMemoryStreamKey) as? Data else {
+                    self.testLabel.text = "Tests: FAILED WITH NO DATA AVILABLE FROM WRITE"
+                    self.testLabel.textColor = UIColor.red
+                    return
+                }
+                
+                guard let returnedPlaylist = String(data: data, encoding: .utf8) else {
+                    self.testLabel.text = "Tests: FAILED WITH WRITE DATA NOT CONVERTABLE TO STRING"
+                    self.testLabel.textColor = UIColor.red
+                    return
+                }
+                
+                // do some spot checks on output playlist
+                guard
+                    returnedPlaylist.contains("#EXT-X-TARGETDURATION:10"),
+                    returnedPlaylist.contains("http://media.example.com/entire1.ts"),
+                    returnedPlaylist.contains("IV=0x9c7db8778570d05c3177c349fd9236aa") else {
+                        self.testLabel.text = "Tests: FAILED WITH UNEXPECTED WRITE OUTPUT"
+                        self.testLabel.textColor = UIColor.red
+                        return
+                }
+                
                 self.testLabel.text = "Tests: PASSED"
                 self.testLabel.textColor = UIColor.green
             }
             else {
-                self.testLabel.text = "Tests: FAILED WITH UNEXPECTED OUTPUT"
+                self.testLabel.text = "Tests: FAILED WITH UNEXPECTED PARSED CONTENT"
                 self.testLabel.textColor = UIColor.red
             }
         }
